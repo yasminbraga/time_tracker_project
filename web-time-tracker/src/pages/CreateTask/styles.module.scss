@@ -1,0 +1,52 @@
+.boxWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  background: hsl(235, 46%, 20%);
+
+  h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+
+  label {
+    color: hsl(236, 100%, 87%);
+    margin-bottom: 0.5rem;
+  }
+
+  input,
+  select {
+    background: hsl(226, 43%, 10%);
+    border: none;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+  }
+}
+
+.formButton {
+  background: hsl(246, 80%, 60%);
+  color: white;
+  font-size: 14px;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  margin-top: 1rem;
+}

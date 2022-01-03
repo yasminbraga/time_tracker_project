@@ -1,0 +1,36 @@
+.cardDecoration {
+  // background: hsl(15, 100%, 70%);
+  position: relative;
+  width: 255px;
+  height: 248px;
+  border-radius: 14px;
+}
+
+.cardContent {
+  background: hsl(235, 46%, 20%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 255px;
+  height: 200px;
+  border-radius: 14px;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+
+  h1 {
+    font-weight: 300;
+    color: white;
+    font-size: 52px;
+    margin: 2rem 0 0.5rem 0;
+  }
+
+  span {
+    color: hsl(236, 100%, 87%);
+  }
+}
